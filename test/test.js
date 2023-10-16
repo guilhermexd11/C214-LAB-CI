@@ -6,7 +6,7 @@ const { addTask, updateStatus, deleteTask, getTasks } = require('../src/script')
 
 describe('Testes do Gerenciador de Tarefas', () => {
     beforeEach(() => {
-        // Limpa a lista de tarefas antes de cada teste
+        // Limpa a lista de tarefas antes de cada teste ...
         tasks = [];
       });
 
